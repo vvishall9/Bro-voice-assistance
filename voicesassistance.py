@@ -27,7 +27,7 @@ def take_command():
             voice= listener.listen(source)
             command = listener.recognize_google(voice)
             command = command.lower()
-            if "bruno" in command:
+            if "bro" in command:
                 command =command.replace('bro','')
                 print(command)
             
